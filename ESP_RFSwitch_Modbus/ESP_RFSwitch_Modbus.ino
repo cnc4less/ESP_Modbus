@@ -3,6 +3,8 @@
 // RCSwitch         12 - analogWrite
 // Opto for leds     5 - digitalWrite
 
+//https://github.com/andresarmento/modbus-esp8266
+
 #define WIFI_SSID ""
 #define WIFI_PASSWORD ""
 
@@ -12,10 +14,10 @@
 
 // Modbus Registers Offsets (0-9999)
 // Coils
-const int LAMP_1_COIL = 1;
-const int LAMP_2_COIL = 2;
+const int LAMP_1_COIL = 0;
+const int LAMP_2_COIL = 1;
 // Input
-const int TEMP_REGISTER = 1;
+const int TEMP_REGISTER = 0;
 
 // Pins
 #define ONE_WIRE_BUS 14
