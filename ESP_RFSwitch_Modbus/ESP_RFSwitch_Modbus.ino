@@ -5,8 +5,8 @@
 
 //https://github.com/andresarmento/modbus-esp8266
 
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
+#define WIFI_SSID "TP992644"
+#define WIFI_PASSWORD "ugxgjbrt"
 
 #include <ESP8266WiFi.h>
 #include <Modbus.h>
